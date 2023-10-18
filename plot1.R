@@ -38,5 +38,4 @@ dev.copy(png,
          height = 480)
 dev.off()
 
-
 # emissions decreased

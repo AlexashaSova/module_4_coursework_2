@@ -17,7 +17,7 @@ baltimore_emissions_df <- df_summary[df_summary$fips == "24510", ]
 
 ## step - 2 creating plot
 
-# calculate
+# aggregate data
 baltimore_emissions <- aggregate(Emissions ~ year, 
                                  baltimore_emissions_df, 
                                  sum)
